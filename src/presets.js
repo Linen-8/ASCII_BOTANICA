@@ -1,0 +1,133 @@
+/**
+ * Curated Aesthetic Presets
+ */
+
+export const PRESETS = [
+  {
+    id: 'cyber-rose',
+    name: 'Neo-Tokyo Rose',
+    subtitle: 'Cybernetic logarithmic bloom',
+    flower: 'rose',
+    palette: 'cyberpunk',
+    glyphSet: 'matrix',
+    bloom: 0.95,
+    wind: 1.1,
+    rotSpeed: 0.35,
+    glow: true,
+    scanlines: true,
+    fontSize: 12
+  },
+  {
+    id: 'golden-lotus',
+    name: 'Golden Lotus',
+    subtitle: 'Sacred geometry & amber glow',
+    flower: 'lotus',
+    palette: 'amber',
+    glyphSet: 'botanical',
+    bloom: 0.85,
+    wind: 0.7,
+    rotSpeed: 0.25,
+    glow: true,
+    scanlines: true,
+    fontSize: 13
+  },
+  {
+    id: 'matrix-dahlia',
+    name: 'Matrix Dahlia',
+    subtitle: 'Fibonacci phyllotaxis spiral',
+    flower: 'dahlia',
+    palette: 'matrix',
+    glyphSet: 'dense',
+    bloom: 0.9,
+    wind: 0.8,
+    rotSpeed: 0.4,
+    glow: true,
+    scanlines: true,
+    fontSize: 11
+  },
+  {
+    id: 'sakura-breeze',
+    name: 'Sakura Night',
+    subtitle: 'Gentle spring petal drift',
+    flower: 'sakura',
+    palette: 'ice',
+    glyphSet: 'botanical',
+    bloom: 0.75,
+    wind: 1.4,
+    rotSpeed: 0.3,
+    glow: true,
+    scanlines: false,
+    fontSize: 12
+  },
+  {
+    id: 'solar-sunflower',
+    name: 'Solar Helianthus',
+    subtitle: 'Sun-tracking spiral florets',
+    flower: 'sunflower',
+    palette: 'botanical',
+    glyphSet: 'blocks',
+    bloom: 0.9,
+    wind: 0.6,
+    rotSpeed: 0.2,
+    glow: true,
+    scanlines: false,
+    fontSize: 12
+  },
+  {
+    id: 'cosmic-orchid',
+    name: 'Cosmic Orchid',
+    subtitle: 'Bilateral floral fractals',
+    flower: 'orchid',
+    palette: 'synthwave',
+    glyphSet: 'dense',
+    bloom: 1.05,
+    wind: 1.2,
+    rotSpeed: 0.45,
+    glow: true,
+    scanlines: true,
+    fontSize: 11
+  },
+  {
+    id: 'flame-tulip',
+    name: 'Scarlet Tulip',
+    subtitle: 'Dutch chalice bloom & fire glow',
+    flower: 'tulip',
+    palette: 'cyberpunk',
+    glyphSet: 'botanical',
+    bloom: 0.88,
+    wind: 0.9,
+    rotSpeed: 0.3,
+    glow: true,
+    scanlines: true,
+    fontSize: 12
+  },
+  {
+    id: 'zen-lavender',
+    name: 'Zen Lavender',
+    subtitle: 'Tranquil meadow spire flutter',
+    flower: 'lavender',
+    palette: 'ghost',
+    glyphSet: 'minimal',
+    bloom: 0.95,
+    wind: 1.5,
+    rotSpeed: 0.28,
+    glow: true,
+    scanlines: false,
+    fontSize: 12
+  },
+  {
+    id: 'eden-garden',
+    name: 'Eden Garden',
+    subtitle: 'Full multi-flower botanical cluster',
+    flower: 'rose',
+    isGarden: true,
+    palette: 'botanical',
+    glyphSet: 'botanical',
+    bloom: 0.92,
+    wind: 1.1,
+    rotSpeed: 0.25,
+    glow: true,
+    scanlines: true,
+    fontSize: 11
+  }
+];
